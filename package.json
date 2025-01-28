@@ -1,6 +1,7 @@
 {
   "name": "paysdecorlay",
   "private": true,
+  "homepage":"https://paysdecorlay.vercel.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

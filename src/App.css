@@ -1,42 +1,100 @@
+
 #root {
-  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0;
   text-align: center;
+  background: black;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.section-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
 }
 
-.card {
-  padding: 2em;
+.title1 {
+  font-family: "Josefin", sans-serif;
+  text-transform: uppercase;
+  color:white;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 700;
 }
 
-.read-the-docs {
-  color: #888;
+.nav-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background: black;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  margin: 0 auto;
+  padding: 50px 10% 50px 10%;
+  text-align: center;
+  background: black;
+}
+
+.nav-li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  background: black;
+  border:1px solid white;
+}
+
+.nav-li-a {
+  width:100%;
+  text-align: center;
+  background: black;
+  text-decoration: none;
+  font-family: "Futura LT", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.nav-li-a:hover {
+  color : blue;
+
 }

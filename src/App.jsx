@@ -1,33 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from "../src/components/Header/index";
+import Footer from "../src/components/Footer/index";
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Header />
+      <div className="body">
+        <section className="section-nav">
+          <nav className ="nav-page">
+            <ul className= "nav-ul">
+              <li className="nav-li"><a className ="nav-li-a" href="https://corlay.vercel.app" target="_blank" rel="noopener noreferrer" >Commune de Corlay</a></li>
+              <li className="nav-li"><a className ="nav-li-a" href="https://corlay.vercel.app" target="_blank" rel="noopener noreferrer">Le Haut-Corlay</a></li>
+              <li className="nav-li"><a className ="nav-li-a" href="https://corlay.vercel.app" target="_blank" rel="noopener noreferrer">Plussulien</a></li>
+              <li className="nav-li"><a className ="nav-li-a" href="https://corlay.vercel.app" target="_blank" rel="noopener noreferrer">Saint-Mayeux</a></li>
+              <li className="nav-li"><a className ="nav-li-a" href="https://corlay.vercel.app" target="_blank" rel="noopener noreferrer">Saint-Martin-Des-prés</a></li>
+            </ul>
+          </nav>
+        </section>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Footer />
     </>
   )
 }

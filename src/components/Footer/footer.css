@@ -1,0 +1,18 @@
+.body-footer {
+    border-top:1px solid white;
+    width:90%;
+    padding:5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title2 {
+    font-family: 'Futura LT', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color:white;
+}
