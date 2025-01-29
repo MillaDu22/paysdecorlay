@@ -1,8 +1,24 @@
-# React + Vite
+## Title
+Le pays de Corlay
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Author
+Armor Web Creations - Ludmilla MARTI
 
-Currently, two official plugins are available:
+## Description
+Le site du pays de Corlay regroupe 5 communes. C'est une page de navigation vers les sites des 5 communes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technology
+- React.js
+- Vite
+- Css3
+- Helmet async
+
+## Run 
+- Local: npm run dev port 5173 
+- Vite preview: npm run preview port 4174
+- Prod: npx serve -s dist port 3000
+
+
+## Tech
+- Site responsive
+
