@@ -37,7 +37,7 @@
   width:60%;
   padding:140px 20% 30px 20%;
   animation: slideInLeft 1.2s ease-out;
-  background:url("../src/assets/images/foret.jpg");
+  background:url("../src/assets/images/foret.webp");
   background-size: cover;
   filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
 }
