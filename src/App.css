@@ -26,6 +26,7 @@
   padding: 0;
   text-align: center;
   background:white ;
+  overflow: hidden;
 }
 
 .container-intro {
@@ -36,6 +37,9 @@
   width:60%;
   padding:140px 20% 30px 20%;
   animation: slideInLeft 1.2s ease-out;
+  background:url("../src/assets/images/foret.jpg");
+  background-size: cover;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
 }
 
 @keyframes slideInLeft {
@@ -54,8 +58,41 @@
   font-size: 18px;
   line-height: 20px;
   font-weight: 400;
-  color:#464646;
+  color:white;
   text-align: left;
+}
+
+.facebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;  
+  height: 50px;
+  margin: 10px auto; 
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background-color: white; 
+  text-decoration: none;
+  font-size: 24px; 
+  color: white;
+  border:3px solid rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out; 
+  box-shadow: -1px 3px 10px rgba(155, 155, 155, 0.217), inset 0 -2px 5px rgba(125, 125, 125, 0.321),
+  inset 0 4px 15px rgba(255, 255, 255, 0.842), 0 0 0 2px #25252500, 0 0 0 2px #ffffff,
+  0 0 0 1.5px #262626;
+}
+
+/* Couleur des icônes */
+.facebook, .fa-facebook-f {
+  color: #1877F2; 
+}
+
+
+/* Effet au survol */
+.facebook:hover {
+  transform: scale(1.1); /* Légère augmentation de la taille */
+  box-shadow: 0 6px 20px rgba(145, 145, 145, 0.3); /* Ombre plus intense */
+  border-color: currentColor; /* Border prend la couleur de l'icône */
 }
 
 .section-nav {
@@ -65,7 +102,7 @@
   align-items: center;
   width:100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0 30px 0;
   text-align: center;
   animation: slideInRight 1.2s ease-out;
 }
@@ -79,6 +116,15 @@
       transform: translateX(0);
       opacity: 1;
   }
+}
+
+.section-nav .title2, .container-reseaux .title2 {
+  font-family: "Josefin", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color:#464646;
 }
 
 .nav-page {
@@ -103,16 +149,37 @@
   text-align: center;
 }
 
-.nav-li {
-  background:white;
+.nav-ul .container-social {
+  background: black;
   position: relative; /* Nécessaire pour le positionnement du ::before */
   width: 20%;
   margin-left: 10px;
   margin-right: 10px;
+  border:1px solid rgb(237, 237, 237);
+  overflow: hidden; /* Cache tout ce qui dépasse l'élément parent */
+  transition: transform 0.3s ease, color 0.3s ease;
+  border-radius: 10px; /* Ajout de coins arrondis pour un design moderne */
+}
+
+.container-social {
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.2));
+}
+
+.nav-li {
+  background:white;
   border:1px solid lightgray;
+  position: relative; /* Nécessaire pour le positionnement du ::before */
+  width: 100%;
   overflow: hidden; /* Cache tout ce qui dépasse l'élément parent */
   transition: transform 0.3s ease, color 0.3s ease;
   border-radius: 0px; /* Ajout de coins arrondis pour un design moderne */
+}
+
+.fa-globe {
+  color: #464646;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .nav-li-a {
@@ -157,4 +224,115 @@
   overflow: hidden;
   background: white;
   object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    width:100%;
+    padding:0;
+    margin: 0 auto;
+  }
+
+  .body-app {
+    width:100%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  container-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width:60%;
+    padding:140px 20% 30px 20%;
+    animation: slideInLeft 1.2s ease-out;
+  }
+  
+  @keyframes slideInLeft {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+  
+  .intro-txt {
+    font-family: "Futura LT", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color:white;
+    text-align: left;
+  }
+  
+  .section-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin: 0 auto;
+    padding: 0 0 30px 0;
+    text-align: center;
+    animation: slideInRight 1.2s ease-out;
+  }
+  
+  @keyframes slideInRight {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+  
+  .section-nav .title2 {
+    font-family: "Josefin", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:#464646;
+  }
+  
+  .nav-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  .nav-ul {
+    flex-direction: column;
+    width:60%;
+  }
+
+  .nav-ul .container-social {
+    background:black;
+    position: relative; /* Nécessaire pour le positionnement du ::before */
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    border:1px solid lightgray;
+    overflow: hidden; /* Cache tout ce qui dépasse l'élément parent */
+    transition: transform 0.3s ease, color 0.3s ease;
+    border-radius: 0px; /* Ajout de coins arrondis pour un design moderne */
+  }
+
+  .nav-li {
+    width:100%;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
 }

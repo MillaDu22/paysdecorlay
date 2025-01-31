@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import PaysDeCorlay from "../../assets/images/corlay.webp";
+import Triskel from "../../assets/images/triskel.png";
 import './header.css';
 
 function Header() {
@@ -23,17 +24,19 @@ function Header() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     return(
-        <header className="body-header" style={{ backgroundColor: `rgba(30, 90, 110, ${bgOpacity})` }}>
-            <div className="mi-header1">
+        <header className="body-header" style={{ backgroundColor: `rgba(0, 0, 0, ${bgOpacity})` }}>
+    
                 <span className="container-logo">
                     <img className="logo-header" src={ PaysDeCorlay } alt="Logo du pays de Corlay" />
                 </span>
-            </div>
-            <div className="mi-header2">
+
                 <span className="container-title1">
                     <h1 className="title1" style={{ opacity: titleOpacity, transition: "opacity 0.3s ease-out" }}>Pays de Corlay</h1>
                 </span>
-            </div>
+  
+            <span className="container-triskel">
+                <img src = { Triskel } className="triskel" alt ="triskel" />
+            </span>
         </header>
     )
 }
