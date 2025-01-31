@@ -25,15 +25,12 @@ function Header() {
     }, []);
     return(
         <header className="body-header" style={{ backgroundColor: `rgba(0, 0, 0, ${bgOpacity})` }}>
-    
-                <span className="container-logo">
-                    <img className="logo-header" src={ PaysDeCorlay } alt="Logo du pays de Corlay" />
-                </span>
-
-                <span className="container-title1">
-                    <h1 className="title1" style={{ opacity: titleOpacity, transition: "opacity 0.3s ease-out" }}>Pays de Corlay</h1>
-                </span>
-  
+            <span className="container-logo">
+                <img className="logo-header" src={ PaysDeCorlay } alt="Logo du pays de Corlay" />
+            </span>
+            <span className="container-title1">
+                <h1 className="title1" style={{ opacity: titleOpacity, transition: "opacity 0.3s ease-out" }}>Pays de Corlay</h1>
+            </span>
             <span className="container-triskel">
                 <img src = { Triskel } className="triskel" alt ="triskel" />
             </span>

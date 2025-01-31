@@ -6,7 +6,7 @@ import CorlayLogo from "../src/assets/images/blason-corlay.webp";
 import PlussulienLogo from "../src/assets/images/plussulien.webp";
 import StMayeuxLogo from "../src/assets/images/st-mayeux.webp";
 import StMarttinDesPresLogo from "../src/assets/images/saint-martin-des-pres.webp";
-import GlobeIcon from "../src/assets/images/globe.png";
+import GlobeIcon from "../src/assets/images/globe.webp";
 import './App.css'
 
 function App() {
