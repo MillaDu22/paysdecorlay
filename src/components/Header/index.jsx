@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import PaysDeCorlay from "../../assets/images/corlay.webp";
-import Triskel from "../../assets/images/triskel.png";
+import Triskel from "../../assets/images/triskel.webp";
 import './header.css';
 
 function Header() {
