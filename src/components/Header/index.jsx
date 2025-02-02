@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import PaysDeCorlay from "../../assets/images/corlay.webp";
+import PaysDeCorlay from "../../assets/images/logo-paysdecorlay.png";
 import Triskel from "../../assets/images/triskel.webp";
 import './header.css';
 
