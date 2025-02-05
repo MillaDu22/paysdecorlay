@@ -31,23 +31,23 @@ function App() {
               <nav className ="nav-page">
                 <ul className= "nav-ul">
                   <div className="container-social">
-                    <li className="nav-li"><a className ="nav-li-a" href="https://www.facebook.com/profile.php?id=100063946335792" target="_blank" rel="noopener noreferrer" ><img className="logo" src= { CorlayLogo } alt="Logo de Corlay" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />Corlay</a></li>
+                    <li className="nav-li"><a className ="nav-li-a" href="https://milladu22.github.io/corlay/" target="_blank" rel="noopener noreferrer" ><img className="logo" src= { CorlayLogo } alt="Logo de Corlay" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />Corlay</a></li>
                     <a className="facebook" href="https://www.facebook.com/p/Commune-de-Corlay-100063946335792/?locale=fr_FR" target="blank" aria-label="facebook" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
                   </div>
                   <div className="container-social">
-                    <li className="nav-li"><a className ="nav-li-a" href="https://www.facebook.com/commune.le.haut.corlay" target="_blank" rel="noopener noreferrer"><img className="logo" src= { LeHautCorlayLogo } alt="Logo du Haut-Corlay" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />Le Haut-Corlay</a></li>
+                    <li className="nav-li"><a className ="nav-li-a" href="https://milladu22.github.io/le-haut-corlay/" target="_blank" rel="noopener noreferrer"><img className="logo" src= { LeHautCorlayLogo } alt="Logo du Haut-Corlay" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />Le Haut-Corlay</a></li>
                     <a className="facebook" href="https://www.facebook.com/commune.le.haut.corlay/?locale=fr_FR" target="blank" aria-label="facebook" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
                   </div>
                   <div className="container-social">
-                    <li className="nav-li"><a className ="nav-li-a" href="https://www.facebook.com/groups/1033282263672708/" target="_blank" rel="noopener noreferrer"><img className="logo" src= { PlussulienLogo } alt="Logo de Plussulien" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />Plussulien</a></li>
+                    <li className="nav-li"><a className ="nav-li-a" href="https://milladu22.github.io/plussulien/" target="_blank" rel="noopener noreferrer"><img className="logo" src= { PlussulienLogo } alt="Logo de Plussulien" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />Plussulien</a></li>
                     <a className="facebook" href="https://www.facebook.com/groups/1033282263672708/" target="blank" aria-label="facebook" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
                   </div>
                   <div className="container-social">
-                    <li className="nav-li"><a className ="nav-li-a" href="https://www.facebook.com/saint.martin.des.pres" target="_blank" rel="noopener noreferrer"><img className="logo" src= { StMarttinDesPresLogo } alt="Logo de Saint-Martin-Des-Prés" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />St-Martin-Des-prés</a></li>
+                    <li className="nav-li"><a className ="nav-li-a" href="https://milladu22.github.io/saint-martin-des-pres/" target="_blank" rel="noopener noreferrer"><img className="logo" src= { StMarttinDesPresLogo } alt="Logo de Saint-Martin-Des-Prés" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />St-Martin-Des-prés</a></li>
                     <a className="facebook" href="https://www.facebook.com/saint.martin.des.pres/" target="blank" aria-label="facebook" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
                   </div>
                   <div className="container-social">
-                    <li className="nav-li"><a className ="nav-li-a" href="https://www.facebook.com/profile.php?id=100080110360107" target="_blank" rel="noopener noreferrer"><img className="logo" src= { StMayeuxLogo } alt="Logo de Saint-Mayeux" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />St-Mayeux</a></li>
+                    <li className="nav-li"><a className ="nav-li-a" href="https://milladu22.github.io/saint-mayeux/" target="_blank" rel="noopener noreferrer"><img className="logo" src= { StMayeuxLogo } alt="Logo de Saint-Mayeux" /><img src= { GlobeIcon } className="globe-icon" alt="icone internet représentant un globe" />St-Mayeux</a></li>
                     <a className="facebook" href="https://www.facebook.com/p/Commune-de-Saint-Mayeux-100080110360107/?locale=fr_FR" target="blank" aria-label="facebook" rel="noopener noreferrer"><i className="fa-brands fa-facebook-f"></i></a>
                   </div>
                 </ul>
